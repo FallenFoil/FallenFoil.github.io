@@ -9,7 +9,7 @@ body, html {
 }
 
 h1 {
-	color: #333;
+	color: #FFFFFF;
 	font-size: 64px;
 	font-weight: 800;
 	margin-top: 0;
@@ -27,7 +27,7 @@ p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: #888;
+	color: #FFFFFF;
 }
 p.intro {
 	margin: 12px 0 0;
@@ -53,9 +53,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .btn-custom {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	color: #444;
+	color: #FFFFFF;
 	background-color: transparent;
-	border: 2px solid #444;
+	border: 2px solid #FFFFFF;
 	padding: 14px 20px;
 	margin: 0;
 	font-size: 14px;
@@ -74,6 +74,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	padding: 0;
 	margin-bottom: 80px;
+	background: url(../img/bg-1.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 .intro .fa {
 	font-size: 94px;
@@ -81,7 +86,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #fff;
 }
 .intro p {
-	color: #444;
+	color: #FFFFFF;
 	margin: 10px 0 20px 0;
 	font-size: 22px;
 }
