@@ -139,6 +139,10 @@ header .intro-text {
 	display: table-cell;
 	vertical-align: middle;
 }
+.hover-bg .hover-text .overlay-caption .overlay-content h4{
+	color: #333;
+}
+
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
