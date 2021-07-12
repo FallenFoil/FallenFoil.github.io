@@ -1,0 +1,149 @@
+{
+  "main": {
+    "name": "Luís Macedo",
+    "occupation": "Software developer",
+    "description": "Software Developer & CyberSecurity Enthusiast",
+    "image": "profilepic.jpg",
+    "bio": [
+      "Hello, my name is Luís Macedo. I'm 23 and from Portugal. Currently finishing my Master's in Computer Engineering and a Research grant, both on Computer Security.",
+      "My dissertation is to explore the capabilities of Arm TrustZone in a Robot Operating System 2 (ROS2) with the help of libddssec.",
+      "I'm very interested in cybersecurity and enjoy developing web applications, mainly the front-end."
+    ],
+    "email": "luisjrsm@hotmail.com",
+    "country": "Portugal",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/lu%C3%ADs-macedo-29315218b/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/fallenfoil",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "University of Minho",
+        "degree": "Integrated Master's in Informatics Engineering",
+        "graduated": "2016 - 2021",
+        "description": "Very enlightfull course"
+      }
+    ],
+    "work": [
+      {
+        "company": "INESC Technology and Science - Associate Laboratory",
+        "title": "Research Assistant (Research Grant) ",
+        "years": "April 2021 - Present",
+        "description": ["I am designing, implementing, and evaluating a prototype that capitalizes on security capabilities added by TrustZone (OP-TEE), namely attestation, to respond to the security challenges posed by the ROS2 and implement this solution in a real environment (on an ARM chip)."]
+      },
+      {
+        "company": "Accenture",
+        "title": "Software Engineer ",
+        "years": "October 2020 - February 2021",
+        "description": [
+          "In collaboration with Accenture, my group and I was tasked to improve an already built fleet management web app on the Google Cloud Platform. I implemented new features, mainly on the front-end, using ReactJS.",
+          "In addition, my group and I did research and wrote a technical report on optimizing current public transport services in a futuristic scenario based primarily on Machine Learning pipelines."
+        ]
+      },
+      {
+        "company": "Iluminações Teixeira Couto, Lda",
+        "title": "Software Developer Intern ",
+        "years": "July 2019 - August 2019",
+        "description": ["Beginning of the development of a management platform in Laravel (PHP) and Vue.js."]
+      }
+    ],
+    "skills": [
+      {
+        "name": "C",
+        "level": "70%"
+      },
+      {
+        "name": "Java",
+        "level": "80%"
+      },
+      {
+        "name": "Python",
+        "level": "70%"
+      },
+      {
+        "name": "MySQL/NoSQL",
+        "level": "70%"
+      },
+      {
+        "name": "Linux/Bash",
+        "level": "80%"
+      },
+      {
+        "name": "HTML/CSS",
+        "level": "75%"
+      },
+      {
+        "name": "ReactJs/VueJs",
+        "level": "60%"
+      }
+    ],
+    "online": [
+      {
+        "school": "Royal Holloway, University of London",
+        "degree": "Information Security: Context and Introduction",
+        "graduated": "June 2021",
+        "description": "Very enlightfull course",
+        "credential": "https://www.coursera.org/account/accomplishments/certificate/YDL749GGYW3X"
+      },
+      {
+        "school": "University of Colorado",
+        "degree": "Applied Cryptography Specialization",
+        "graduated": "August 2020",
+        "description": "Very enlightfull course",
+        "credential": "https://www.coursera.org/account/accomplishments/specialization/certificate/YDZWHPHMM3WX"
+      },
+      {
+        "school": "University of California, Davis",
+        "degree": "Identifying Security Vulnerabilities",
+        "graduated": "July 2021",
+        "description": "Very enlightfull course",
+        "credential": "https://www.coursera.org/account/accomplishments/certificate/4TKSMWYYJ35T"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  }
+}
