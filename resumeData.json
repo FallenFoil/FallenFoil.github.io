@@ -26,13 +26,16 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": [
+      "Throughout my academic career, I was introduced to almost every topic in the software development area, such as multiple programming paradigms, assembly, networks, distributed systems, machine learning, web app development, cybersecurity, and databases.",
+      "I also introduced engineering themes, like, software systems planning,  economics, stock management, and statistics."
+    ],
     "education": [
       {
         "school": "University of Minho",
         "degree": "Integrated Master's in Informatics Engineering",
         "graduated": "2016 - 2021",
-        "description": "Very enlightfull course"
+        "description": "This course aims to prepare qualified engineers in all currently recognized phases of software development, such as software analysis, design, implementation, and installation."
       }
     ],
     "work": [
@@ -93,21 +96,28 @@
         "school": "Royal Holloway, University of London",
         "degree": "Information Security: Context and Introduction",
         "graduated": "June 2021",
-        "description": "Very enlightfull course",
+        "description": [
+          "After completing this course, I learned key information security principles regarding information, confidentiality, integrity, and availability.",
+          "In this course, I explored information security through some introductory material and gained an appreciation of the scope and context around the subject. More specifically, a brief introduction to cryptography, security management, and network and computer security."
+        ],
         "credential": "https://www.coursera.org/account/accomplishments/certificate/YDL749GGYW3X"
       },
       {
         "school": "University of Colorado",
         "degree": "Applied Cryptography Specialization",
         "graduated": "August 2020",
-        "description": "Very enlightfull course",
+        "description": [
+          "In this specialization, I learned basic security issues in computer communications, classical cryptographic algorithms, symmetric-key cryptography, public-key cryptography, authentication, and digital signatures."
+        ],
         "credential": "https://www.coursera.org/account/accomplishments/specialization/certificate/YDZWHPHMM3WX"
       },
       {
         "school": "University of California, Davis",
         "degree": "Identifying Security Vulnerabilities",
         "graduated": "July 2021",
-        "description": "Very enlightfull course",
+        "description": [
+          "I learned about threat modeling and cryptography concepts and how to create threat models and think critically about the threat models created by other people. I also learned the basics of applying cryptography, such as encryption and secure hashing. I learned how attackers could exploit application vulnerabilities through the improper handling of user-controlled data. We'll gain a fundamental understanding of injection problems in web applications, including the three most common types of injection problems: SQL injection, cross-site scripting, and command injection."
+        ],
         "credential": "https://www.coursera.org/account/accomplishments/certificate/4TKSMWYYJ35T"
       }
     ]
@@ -115,34 +125,46 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Bela Sopa",
+        "category": "Personal Assistant in soup confection",
+        "image": "belasopa.png",
+        "url": "https://github.com/FallenFoil/Bela-Sopa"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Virtual Environment with Gestual Commands",
+        "category": "Real-time Movement Detection for Gestual Commands on desktop",
+        "image": "gestual.gif",
+        "url": "https://github.com/GuilhermeViveiros/Movement-Detection"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "FileSystem w/ Email authentication",
+        "category": "FileSystem with an extra layer of protection, using email as authentication for reading files for Linux.",
+        "image": "fs-email.png",
+        "url": "https://github.com/FallenFoil/FileSystem-with-Email"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "ActiveSound",
+        "category": "A music sharing platform.",
+        "image": "active-sound.png",
+        "url": "https://github.com/FallenFoil/Active-Sound"
       },
       {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Anon-Network",
+        "category": "Overlay network for anonymization of the source in a TCP connection.",
+        "image": "anon.png",
+        "url": "https://github.com/FallenFoil/Anon-Network"
+      },
+      {
+        "title": "OpenGL 3D Engine",
+        "category": "A 3D Engine that read XML files to draw a scene.",
+        "image": "engine.png",
+        "url": "https://github.com/FallenFoil/OpenGL-Engine"
+      },
+      {
+        "title": "TerminalMenu",
+        "category": "A simple library for creating fancy terminal menus in Java.",
+        "image": "menu.png",
+        "url": "https://github.com/FallenFoil/TerminalMenu"
       }
     ]
   }

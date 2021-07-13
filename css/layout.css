@@ -201,7 +201,7 @@ ul#nav li.current a { color: #0066ff; }
    margin-bottom: 12px;
 }
 #about p {
-   line-height: 30px;
+   line-height: 25px;
    color: #7A7A7A;
 }
 #about .profile-pic {
@@ -490,7 +490,7 @@ ul#nav li.current a { color: #0066ff; }
 	transition: opacity 0.3s ease-in-out;
 
    position: absolute;
-   top: 50%;
+   top: 75%;
    left: 50%;
    margin-left: -15px;
    margin-top: -15px;

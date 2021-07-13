@@ -51,6 +51,9 @@
 
 			var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
 
+         console.log(active_section);
+         console.log(active_link);
+
          navigation_links.parent().removeClass("current");
 			active_link.parent().addClass("current");
 
