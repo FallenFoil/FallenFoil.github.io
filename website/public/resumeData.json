@@ -1,0 +1,179 @@
+{
+  "main": {
+    "name": "Luís Macedo",
+    "occupation": "Software developer",
+    "description": [
+      "Software Developer",
+      "CyberSecurity Enthusiast"
+    ],
+    "image": "profilepic.jpg",
+    "bio": [
+      "Hello, my name is Luís Macedo. I'm 23 and from Portugal. Currently finishing my Master's in Computer Engineering and a Research grant, both on Computer Security.",
+      "My dissertation is to explore the capabilities of Arm TrustZone in a Robot Operating System 2 (ROS2) with the help of libddssec.",
+      "I'm very interested in cybersecurity and enjoy developing web applications, mainly the front-end."
+    ],
+    "email": "luisjrsm@hotmail.com",
+    "country": "Portugal",
+    "resumedownload": "https://raw.githubusercontent.com/FallenFoil/FallenFoil.github.io/master/Luis_Macedo-CV.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/lu%C3%ADs-macedo-29315218b/",
+        "className": "fab fa-linkedin-in"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/fallenfoil",
+        "className": "fab fa-github"
+      },
+      {
+        "name": "email",
+        "url": "mailto:luisjrsm@hotmail.com",
+        "className": "fas fa-at"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": [
+      "Throughout my academic career, I was introduced to almost every topic in the software development area, such as multiple programming paradigms, assembly, networks, distributed systems, machine learning, web app development, cybersecurity, and databases.",
+      "I also introduced engineering themes, like, software systems planning,  economics, stock management, and statistics."
+    ],
+    "education": [
+      {
+        "school": "University of Minho",
+        "degree": "Integrated Master's in Informatics Engineering",
+        "graduated": "2016 - 2021",
+        "description": "This course aims to prepare qualified engineers in all currently recognized phases of software development, such as software analysis, design, implementation, and installation."
+      }
+    ],
+    "work": [
+      {
+        "company": "INESC Technology and Science - Associate Laboratory",
+        "title": "Research Assistant (Research Grant) ",
+        "years": "April 2021 - Present",
+        "description": ["I am designing, implementing, and evaluating a prototype that capitalizes on security capabilities added by TrustZone (OP-TEE), namely attestation, to respond to the security challenges posed by the ROS2 and implement this solution in a real environment (on an ARM chip)."]
+      },
+      {
+        "company": "Accenture",
+        "title": "Software Engineer ",
+        "years": "October 2020 - February 2021",
+        "description": [
+          "In collaboration with Accenture, my group and I was tasked to improve an already built fleet management web app on the Google Cloud Platform. I implemented new features, mainly on the front-end, using ReactJS.",
+          "In addition, my group and I did research and wrote a technical report on optimizing current public transport services in a futuristic scenario based primarily on Machine Learning pipelines."
+        ]
+      },
+      {
+        "company": "Iluminações Teixeira Couto, Lda",
+        "title": "Software Developer Intern ",
+        "years": "July 2019 - August 2019",
+        "description": ["Beginning of the development of a management platform in Laravel (PHP) and Vue.js."]
+      }
+    ],
+    "skills": [
+      {
+        "name": "C",
+        "level": "70%"
+      },
+      {
+        "name": "Java",
+        "level": "80%"
+      },
+      {
+        "name": "Python",
+        "level": "70%"
+      },
+      {
+        "name": "MySQL/NoSQL",
+        "level": "70%"
+      },
+      {
+        "name": "Linux/Bash",
+        "level": "80%"
+      },
+      {
+        "name": "HTML/CSS",
+        "level": "75%"
+      },
+      {
+        "name": "ReactJs/VueJs",
+        "level": "60%"
+      }
+    ],
+    "online": [
+      {
+        "school": "Royal Holloway, University of London",
+        "degree": "Information Security: Context and Introduction",
+        "graduated": "June 2021",
+        "description": [
+          "After completing this course, I learned key information security principles regarding information, confidentiality, integrity, and availability.",
+          "In this course, I explored information security through some introductory material and gained an appreciation of the scope and context around the subject. More specifically, a brief introduction to cryptography, security management, and network and computer security."
+        ],
+        "credential": "https://www.coursera.org/account/accomplishments/certificate/YDL749GGYW3X"
+      },
+      {
+        "school": "University of Colorado",
+        "degree": "Applied Cryptography Specialization",
+        "graduated": "August 2020",
+        "description": [
+          "In this specialization, I learned basic security issues in computer communications, classical cryptographic algorithms, symmetric-key cryptography, public-key cryptography, authentication, and digital signatures."
+        ],
+        "credential": "https://www.coursera.org/account/accomplishments/specialization/certificate/YDZWHPHMM3WX"
+      },
+      {
+        "school": "University of California, Davis",
+        "degree": "Identifying Security Vulnerabilities",
+        "graduated": "July 2021",
+        "description": [
+          "I learned about threat modeling and cryptography concepts and how to create threat models and think critically about the threat models created by other people. I also learned the basics of applying cryptography, such as encryption and secure hashing. I learned how attackers could exploit application vulnerabilities through the improper handling of user-controlled data. We'll gain a fundamental understanding of injection problems in web applications, including the three most common types of injection problems: SQL injection, cross-site scripting, and command injection."
+        ],
+        "credential": "https://www.coursera.org/account/accomplishments/certificate/4TKSMWYYJ35T"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Bela Sopa",
+        "category": "Personal Assistant in soup confection",
+        "image": "belasopa.png",
+        "url": "https://github.com/FallenFoil/Bela-Sopa"
+      },
+      {
+        "title": "Virtual Environment with Gestual Commands",
+        "category": "Real-time Movement Detection for Gestual Commands on desktop",
+        "image": "gestual.gif",
+        "url": "https://github.com/GuilhermeViveiros/Movement-Detection"
+      },
+      {
+        "title": "FileSystem w/ Email authentication",
+        "category": "FileSystem with an extra layer of protection, using email as authentication for reading files for Linux.",
+        "image": "fs-email.png",
+        "url": "https://github.com/FallenFoil/FileSystem-with-Email"
+      },
+      {
+        "title": "ActiveSound",
+        "category": "A music sharing platform.",
+        "image": "active-sound.png",
+        "url": "https://github.com/FallenFoil/Active-Sound"
+      },
+      {
+        "title": "Anon-Network",
+        "category": "Overlay network for anonymization of the source in a TCP connection.",
+        "image": "anon.png",
+        "url": "https://github.com/FallenFoil/Anon-Network"
+      },
+      {
+        "title": "OpenGL 3D Engine",
+        "category": "A 3D Engine that read XML files to draw a scene.",
+        "image": "engine.png",
+        "url": "https://github.com/FallenFoil/OpenGL-Engine"
+      },
+      {
+        "title": "TerminalMenu",
+        "category": "A simple library for creating fancy terminal menus in Java.",
+        "image": "menu.png",
+        "url": "https://github.com/FallenFoil/TerminalMenu"
+      }
+    ]
+  }
+}
