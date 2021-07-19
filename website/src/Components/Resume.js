@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Carousel } from 'react-bootstrap';
 
 class Resume extends Component {
   render() {
@@ -17,7 +18,7 @@ class Resume extends Component {
           return <p>{description}</p>
         })
 
-        return <div key={work.company}><h3>{work.company}</h3>
+        return <div><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             {descriptions}
         </div>
@@ -31,14 +32,13 @@ class Resume extends Component {
             return <p>{description}</p>
          })
          return <div key={courses.school}><h3>{courses.school}</h3>
-         <p className="info">{courses.degree} <span>&bull;</span><em className="date">{courses.graduated}</em> <span>&bull;</span><a href={courses.credential} target="_blank">Credential</a></p>
+         <p className="info">{courses.degree} <span>&bull;</span><em className="date">{courses.graduated}</em> <span>&bull;</span><a href={courses.credential} rel="noreferrer" target="_blank">Credential</a></p>
          {descriptions}</div>
       })
     }
 
     return (
       <section id="resume">
-
       <div className="row education">
          <div className="three columns header-col">
             <h1><span>Education</span></h1>
@@ -89,7 +89,7 @@ class Resume extends Component {
             {skillmessage}
 
 				<div className="bars">
-				   <ul className="skills">
+               <ul className="skills">
 					  {skills}
 					</ul>
 				</div>

@@ -21,7 +21,10 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body {
+   background: #0f0f0f;
+   scroll-padding-top: 0;
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -475,10 +478,12 @@ ul#nav li.current a { color: #0066ff; }
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
+
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
+   height: 100%;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -535,7 +540,10 @@ ul#nav li.current a { color: #0066ff; }
    margin-top: -15px;
 }
 .portfolio-item .item-wrap img {
-   vertical-align: bottom;
+   height: 100%;
+   vertical-align: middle;
+   /*vertical-align: bottom;*/
+   background-color: #ebeeee;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {

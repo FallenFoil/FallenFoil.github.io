@@ -23,11 +23,9 @@ class Header extends Component {
                                  </TypistLoop>  
 
          var networks= this.props.data.social.map(function(network){
-            return <li key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></li>
+            return <li key={network.name}><a href={network.url} target="_blank" rel="noreferrer"><i className={network.className}></i></a></li>
          })
       }
-
-      console.log(descriptions)
 
       return (
          <header id="home" className={this.state.is_preloaded ? 'is-preload' : ''}>
@@ -37,7 +35,7 @@ class Header extends Component {
 
                <ul id="nav" className="nav">
                   <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-                  <li><a className="smoothscroll" href="#about">About</a></li>
+                  <li><a id="about_btn" className="smoothscroll" href="#about">About</a></li>
                   <li><a className="smoothscroll" href="#resume">Resume</a></li>
                   <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
                </ul>

@@ -6,11 +6,20 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
-import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 
-class App extends Component {
+let lastScroll = 0;
 
+function handleScroll(){
+  var currentScroll = window.scrollY;
+  if (currentScroll <= 50 && lastScroll <= currentScroll){
+    $('html, body').animate({scrollTop:document.getElementById('about').getBoundingClientRect().top+40}, 1000, 'linear');
+    //document.getElementById("about_btn").click();
+  }
+  lastScroll = currentScroll;
+}
+
+class App extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -20,7 +29,6 @@ class App extends Component {
 
     ReactGA.initialize('UA-110570651-1');
     ReactGA.pageview(window.location.pathname);
-
   }
 
   getResumeData(){
@@ -40,9 +48,14 @@ class App extends Component {
 
   componentDidMount(){
     this.getResumeData();
+    //window.addEventListener('scroll', handleScroll);
   }
 
-  render() {
+  componentWillUnmount(){
+    //window.removeEventListener('scroll', handleScroll);
+  }
+
+  render(){
     return (
       <div className="App">
         <Header data={this.state.resumeData.main}/>

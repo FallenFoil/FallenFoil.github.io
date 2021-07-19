@@ -165,7 +165,7 @@
       {
         "title": "OpenGL 3D Engine",
         "category": "A 3D Engine that read XML files to draw a scene.",
-        "image": "engine.png",
+        "image": "engine.gif",
         "url": "https://github.com/FallenFoil/OpenGL-Engine"
       },
       {
