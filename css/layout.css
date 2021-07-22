@@ -35,12 +35,88 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
+   /*background: radial-gradient(#020b25,#02091f);*/
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
+
+.light {
+   position: absolute;
+   width: 0px;
+   opacity: .75;
+   background-color: white;
+   box-shadow: #e9f1f1 0px 0px 20px 2px;
+   opacity: 0;
+   top: 100vh;
+   bottom: 0px;
+   left: 0px;
+   right: 0px;
+   margin: auto;
+}
+
+.x1{
+   animation: floatUp 4s infinite linear;
+   transform: scale(1.0);
+ }
+ 
+ .x2{
+   animation: floatUp 7s infinite linear;
+   transform: scale(1.6);
+   left: 15%;
+ }
+ 
+ .x3{
+   animation: floatUp 2.5s infinite linear;
+   transform: scale(.5);
+   left: -15%;
+ }
+ 
+ .x4{
+   animation: floatUp 4.5s infinite linear;
+   transform: scale(1.2);
+   left: -34%;
+ }
+ 
+ .x5{
+   animation: floatUp 8s infinite linear;
+   transform: scale(2.2);
+   left: -57%;
+ }
+ 
+ .x6{
+   animation: floatUp 3s infinite linear;
+   transform: scale(.8);
+   left: -81%;
+ }
+ 
+ .x7{
+   animation: floatUp 5.3s infinite linear;
+   transform: scale(3.2);
+   left: 37%;
+ }
+ 
+ .x8{
+   animation: floatUp 4.7s infinite linear;
+   transform: scale(1.7);
+   left: 62%;
+ }
+ 
+ .x9{
+   animation: floatUp 4.1s infinite linear;
+   transform: scale(0.9);
+   left: 85%;
+ }
+
+ @keyframes floatUp{
+   0%{top: 100vh; opacity: 0;}
+   25%{opacity: 1;}
+   50%{top: 0vh; opacity: .8;}
+   75%{opacity: 1;}
+   100%{top: -100vh; opacity: 0;}
+ }
 
 /* vertically center banner section */
 header:before {
@@ -88,6 +164,18 @@ header.is-preload .name-animation {
 	filter: blur(2);
 }
 
+.description-animation{
+   transition: opacity 1s, filter 1s;
+   transition-delay: 1.439s;
+   filter: blur(0);
+   opacity: 1;
+}
+
+header.is-preload .description-animation {
+	opacity: 0;
+	filter: blur(2);
+}
+
 .social{
    transition: opacity 0.5s, transform 0.8s, filter 0.25s;
    transform: translateY(0);
@@ -100,20 +188,6 @@ header.is-preload .social {
 	opacity: 0;
 	transform: translateY(0.5em);
 	filter: blur(2);
-}
-
-.desc-animation{
-   transition: opacity 0.5s, transform 0.8s, filter 0.25s;
-   transform: translateX(0);
-   transition-delay: 0.65s;
-   filter: blur(0);
-   opacity: 1;
-}
-
-header.is-preload .desc-animation{
-   opacity: 0;
-   /*transform: translateX(0.5em);*/
-   filter: blur(2px);
 }
 
 header .banner-text hr {
@@ -345,7 +419,7 @@ ul#nav li.current a { color: #0066ff; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
+  	height: 2em;
   	border-radius: 3px;
 }
 .bars li em {
@@ -366,8 +440,8 @@ ul#nav li.current a { color: #0066ff; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
+  	height: 2em;
+   line-height: 2em;
    border-radius: 3px 0 0 3px;
 }
 /*
