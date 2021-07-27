@@ -622,6 +622,11 @@ ul#nav li.current a { color: #0066ff; }
    /*vertical-align: bottom;*/
    background-color: #ebeeee;
 }
+.portfolio-item .item-wrap video {
+   height: 100%;
+   vertical-align: middle;
+   background-color: #ebeeee;
+}
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
@@ -998,7 +1003,7 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #2B2B2B;
    font-size: 14px;
    text-align: center;
    position: relative;
