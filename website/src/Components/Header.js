@@ -48,9 +48,6 @@ class Header extends Component {
 
       return (
          <header id="home" className={this.state.is_preloaded ? 'is-preload' : ''}>
-            {/*<span className="night">
-               {stars}
-      </span>*/}
             <nav id="nav-wrap">
                <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>

@@ -66,6 +66,8 @@ audio,
 canvas,
 video {
    display: inline-block;
+   max-width: 100%;
+   height: auto;
 }
 
 audio:not([controls]) {

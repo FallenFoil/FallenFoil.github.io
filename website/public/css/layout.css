@@ -622,6 +622,11 @@ ul#nav li.current a { color: #0066ff; }
    /*vertical-align: bottom;*/
    background-color: #ebeeee;
 }
+.portfolio-item .item-wrap video {
+   height: 100%;
+   vertical-align: middle;
+   background-color: #ebeeee;
+}
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
