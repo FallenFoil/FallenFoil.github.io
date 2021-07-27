@@ -66,8 +66,6 @@ audio,
 canvas,
 video {
    display: inline-block;
-   max-width: 100%;
-   height: auto;
 }
 
 audio:not([controls]) {
@@ -449,7 +447,7 @@ dd { margin: 0 0 0 20px; }
 
 /*  5. Images  --------------------------------------------------------- */
 
-img {
+img, video {
    max-width: 100%;
    height: auto;
 }

@@ -149,6 +149,7 @@
         "category": "Real-time Movement Detection for Gestual Commands on desktop",
         "image": "gestual.mp4",
         "video": true,
+        "no_hover": true,
         "url": "https://github.com/GuilhermeViveiros/Movement-Detection"
       },
       {
@@ -180,8 +181,7 @@
       {
         "title": "TerminalMenu",
         "category": "A simple library for creating fancy terminal menus in Java.",
-        "image": "menu.mp4",
-        "video": true,
+        "image": "menu.png",
         "url": "https://github.com/FallenFoil/TerminalMenu"
       }
     ]
