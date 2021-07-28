@@ -6,7 +6,7 @@
       "Software Developer",
       "CyberSecurity Enthusiast"
     ],
-    "image": "profilepic.jpg",
+    "image": "Luis.webp",
     "bio": [
       "Hello, my name is Luís Macedo. I'm 23 and from Portugal. Currently finishing my Master's in Computer Engineering and a Research grant, both on Computer Security.",
       "My dissertation is to explore the capabilities of Arm TrustZone in a Robot Operating System 2 (ROS2) with the help of libddssec.",
@@ -111,8 +111,8 @@
         "degree": "Information Security: Context and Introduction",
         "graduated": "June 2021",
         "description": [
-          "After completing this course, I learned key information security principles regarding information, confidentiality, integrity, and availability.",
-          "In this course, I explored information security through some introductory material and gained an appreciation of the scope and context around the subject. More specifically, a brief introduction to cryptography, security management, and network and computer security."
+          "In this course, I explored information security through some introductory material and gained an appreciation of the scope and context around the subject. More specifically, a brief introduction to cryptography, security management, and network and computer security.",
+          "I also learned key information security principles regarding information, confidentiality, integrity, and availability."
         ],
         "credential": "https://www.coursera.org/account/accomplishments/certificate/YDL749GGYW3X"
       },
@@ -130,7 +130,8 @@
         "degree": "Identifying Security Vulnerabilities",
         "graduated": "July 2021",
         "description": [
-          "I learned about threat modeling and cryptography concepts and how to create threat models and think critically about the threat models created by other people. I also learned the basics of applying cryptography, such as encryption and secure hashing. I learned how attackers could exploit application vulnerabilities through the improper handling of user-controlled data. We'll gain a fundamental understanding of injection problems in web applications, including the three most common types of injection problems: SQL injection, cross-site scripting, and command injection."
+          "In this course, I learned about threat modeling and cryptography concepts and how to create threat models and think critically about the threat models created by other people.",
+          "I additionally learned how attackers could exploit application vulnerabilities through the improper handling of user-controlled data, such as, injection problems in web applications (SQL injection, cross-site scripting, and command injection)."
         ],
         "credential": "https://www.coursera.org/account/accomplishments/certificate/4TKSMWYYJ35T"
       }
@@ -141,7 +142,7 @@
       {
         "title": "Bela Sopa",
         "category": "Personal Assistant in soup confection",
-        "image": "belasopa.png",
+        "image": "belasopa.webp",
         "url": "https://github.com/FallenFoil/Bela-Sopa"
       },
       {
@@ -155,13 +156,13 @@
       {
         "title": "FileSystem w/ Email authentication",
         "category": "FileSystem with an extra layer of protection, using email as authentication for reading files for Linux.",
-        "image": "fs-email.png",
+        "image": "fs-email.webp",
         "url": "https://github.com/FallenFoil/FileSystem-with-Email"
       },
       {
         "title": "ActiveSound",
         "category": "A music sharing platform.",
-        "image": "active-sound.png",
+        "image": "active-sound.webp",
         "url": "https://github.com/FallenFoil/Active-Sound"
       },
       {
@@ -181,7 +182,7 @@
       {
         "title": "TerminalMenu",
         "category": "A simple library for creating fancy terminal menus in Java.",
-        "image": "menu.png",
+        "image": "menu.webp",
         "url": "https://github.com/FallenFoil/TerminalMenu"
       }
     ]

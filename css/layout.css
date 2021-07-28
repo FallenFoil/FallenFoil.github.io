@@ -36,7 +36,7 @@ header {
    min-height: 500px;
    width: 100%;
    /*background: radial-gradient(#020b25,#02091f);*/
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-background.webp) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
