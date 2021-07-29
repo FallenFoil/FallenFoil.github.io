@@ -405,6 +405,12 @@ ul#nav li.current a { color: #0066ff; }
 /*	Skill Bars
 /*----------------------------------------------*/
 
+.marquee-img {
+   margin-left: 2em;
+   margin-right: 2em;
+   height: 10em;
+}
+
 .bars {
 	width: 95%;
 	float: left;

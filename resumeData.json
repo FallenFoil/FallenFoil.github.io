@@ -78,31 +78,53 @@
     "skills": [
       {
         "name": "C",
-        "level": "70%"
+        "level": "70%",
+        "image": "c.png"
       },
       {
         "name": "Java",
-        "level": "80%"
+        "level": "80%",
+        "image": "java.png"
       },
       {
         "name": "Python",
-        "level": "70%"
+        "level": "70%",
+        "image": "python.png"
       },
       {
         "name": "MySQL/NoSQL",
-        "level": "70%"
+        "level": "70%",
+        "image": "mysql.png"
+      },
+      {
+        "name": "MongoDB",
+        "level": "50%",
+        "image": "mongodb.png"
       },
       {
         "name": "Linux/Bash",
-        "level": "80%"
+        "level": "80%",
+        "image": "linux.png"
       },
       {
         "name": "HTML/CSS",
-        "level": "75%"
+        "level": "75%",
+        "image": "html.png"
+      },
+      {
+        "name": "CSS",
+        "level": "65%",
+        "image": "css.png"
       },
       {
         "name": "ReactJs/VueJs",
-        "level": "60%"
+        "level": "60%",
+        "image": "react.png"
+      },
+      {
+        "name": "VueJs",
+        "level": "50%",
+        "image": "vue.png"
       }
     ],
     "online": [

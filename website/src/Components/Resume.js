@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Carousel } from 'react-bootstrap';
+import Marquee from "react-fast-marquee";
 
 class Resume extends Component {
   render() {
@@ -24,8 +24,10 @@ class Resume extends Component {
         </div>
       })
       var skills = this.props.data.skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+        /*var className = 'bar-expand '+skills.name.toLowerCase();
+        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>*/
+        var skillImage = 'images/skills/' + skills.image;
+        return <img className="marquee-img" src={skillImage}/>
       })
       var online = this.props.data.online.map(function(courses){
          var descriptions = courses.description.map(function(description){
@@ -89,9 +91,9 @@ class Resume extends Component {
             {skillmessage}
 
 				<div className="bars">
-               <ul className="skills">
-					  {skills}
-					</ul>
+               <Marquee className="marquee" pauseOnClick="true" speed="30">
+                  {skills}
+               </Marquee>
 				</div>
 			</div>
       </div>
