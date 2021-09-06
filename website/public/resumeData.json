@@ -8,7 +8,7 @@
     ],
     "image": "Luis.webp",
     "bio": [
-      "Hello, my name is Luís Macedo. I'm 23 and from Portugal. Currently finishing my Master's in Computer Engineering and a Research grant, both on Computer Security.",
+      "Hello, my name is Luís Macedo. I'm {age} and from Portugal. Currently finishing my Master's in Computer Engineering and a Research grant, both on Computer Security.",
       "My dissertation is to explore the capabilities of Arm TrustZone in a Robot Operating System 2 (ROS2) with the help of libddssec.",
       "I'm very interested in cybersecurity and enjoy developing web applications, mainly the front-end."
     ],
