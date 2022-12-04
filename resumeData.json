@@ -52,7 +52,7 @@
       {
         "company": "INESC Technology and Science - Associate Laboratory",
         "title": "Research Assistant (Research Grant) ",
-        "years": "April 2021 - September 2021",
+        "years": "April 2021 - Present",
         "description": [
           "I am designing, implementing, and evaluating a prototype that capitalizes on security capabilities added by TrustZone (OP-TEE), namely attestation, to respond to the security challenges posed by the ROS2 and implement this solution in a real environment (on an ARM chip)."
         ]

@@ -8,7 +8,7 @@ class Fibo extends Component {
     super(props);
     this.state = {
       start: 0,
-      size: 0,
+      size: 6,
       result: 0,
       random: Math.floor(Math.random() * MAX_RAND)
     };
@@ -55,8 +55,8 @@ class Fibo extends Component {
         >
           <div style={{"color": "white"}}>
             <p>Random Number: <span style={{"fontWeight": "bold", "fontSize": "1.5em"}}>{this.state.random}</span></p>
-            <button onClick={this.newNumber}>New Number</button>
-            <button onClick={this.useNumber} style={{"marginLeft": "1em"}}>Use Number</button>
+            <button onClick={this.newNumber} style={{"width": "40%"}}>New Number</button>
+            <button onClick={this.useNumber} style={{"width": "40%", "marginLeft": "1em"}}>Use Number</button>
           </div>
           <div>
             <form onSubmit={this.handleSubmit}>

@@ -5,7 +5,9 @@ class About extends Component {
 
     if(this.props.data){
       var profilepic= "images/"+this.props.data.image;
+      var i = -1;
       var bios = this.props.data.bio.map(function(bio){
+         i++;
          if(bio.includes("{age}")){
             var current_date = new Date();
             var age = current_date.getFullYear() - 1998;
@@ -14,9 +16,9 @@ class About extends Component {
                age--;
             }
 
-            return <p className="bio">{bio.replace("{age}", age)}</p>
+            return <p key={i} className="bio">{bio.replace("{age}", age)}</p>
          }
-         return <p className="bio">{bio}</p>
+         return <p key={i} className="bio">{bio}</p>
       })
       var resumeDownload = this.props.data.resumedownload;
     }
@@ -40,7 +42,6 @@ class About extends Component {
                </div>
             </div>
          </div>
-         <button style={{"position": "absolute", "color": "#2C2C2C", "background": "#2C2C2C"}}>Fibonacci</button>
       </section>
     );
   }

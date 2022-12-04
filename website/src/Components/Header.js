@@ -11,7 +11,7 @@ class Header extends Component {
       };
    }
    componentDidMount(){
-      this.state.is_preloaded = false;
+      this.setState({is_preloaded: false});
    }
 
    render() {
@@ -21,8 +21,7 @@ class Header extends Component {
 
          var delay = false;
          if(this.state.first_render){
-            this.state.first_render = false;
-            this.setState({...this.state});
+            this.setState({...this.state, first_render: false});
             delay = true;
          }
          
@@ -46,6 +45,18 @@ class Header extends Component {
          stars.push(<span className={"light x"+i}></span>)
       }
 
+      const clickMe = () => {
+         console.log("test")
+         const display = document.getElementById('fibo').style.display
+         if (display === "none") {
+            document.getElementById('fibo').style.display = "block";
+         } else {
+            if (display === "block") {
+               document.getElementById('fibo').style.display = "none";
+            }  
+         }
+       }
+
       return (
          <header id="home" className={this.state.is_preloaded ? 'is-preload' : ''}>
             <nav id="nav-wrap">
@@ -54,9 +65,10 @@ class Header extends Component {
 
                <ul id="nav" className="nav">
                   <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-                  <li><a id="about_btn" className="smoothscroll" href="#about">About</a></li>
+                  <li><a className="smoothscroll" href="#about">About</a></li>
                   <li><a className="smoothscroll" href="#resume">Resume</a></li>
                   <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
+                  <li><a className="smoothscroll" href="#fibo" onClick={clickMe}><span style={{"opacity": "0"}}>Fibonacci</span></a></li>
                </ul>
             </nav>
 

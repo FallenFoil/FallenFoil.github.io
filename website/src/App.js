@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 
 import Header from './Components/Header';
@@ -41,11 +40,11 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={this.state.resumeData.main}/>
+        <Fibo />
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
         <Portfolio data={this.state.resumeData.portfolio}/>
         <Footer data={this.state.resumeData.main}/>
-        <Fibo />
       </div>
     );
   }

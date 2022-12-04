@@ -1,10 +1,4 @@
-function fibo(start) {
-  if(start === 0) return 0
-  if(start === 1) return 1
-  return fibo(start-1) + fibo(start-2)
-}
-
-function fibo2(num) {
+function fibo(num) {
   let x=1, y=0, temp
 
   while(num >= 0){
@@ -21,8 +15,7 @@ export default function calculate(start, size) {
   let res = ''
   let i = start
   while(res.length < size) {
-    let x = fibo2(i)
-    console.log(x)
+    let x = fibo(i)
     res += x
     res = res.replace('.','')
     i++
