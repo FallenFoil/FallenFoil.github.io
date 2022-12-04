@@ -23,26 +23,25 @@ class About extends Component {
 
     return (
       <section id="about">
-      <div className="row">
-         <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
-         </div>
-         <div className="nine columns main-col">
-            <h2>About Me</h2>
-            <button>Fibonacci</button>
+         <div className="row">
+            <div className="three columns">
+               <img className="profile-pic"  src={profilepic} alt="Luis Macedo Profile Pic" />
+            </div>
+            <div className="nine columns main-col">
+               <h2>About Me</h2>
 
-            {bios}
-            <div className="row">
-               <div className="columns download">
-                  <p>
-                     <a href={resumeDownload} rel="noreferrer" className="button" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
-                  </p>
+               {bios}
+               <div className="row">
+                  <div className="columns download">
+                     <p>
+                        <a href={resumeDownload} rel="noreferrer" className="button" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
+                     </p>
+                  </div>
                </div>
             </div>
          </div>
-      </div>
-
-   </section>
+         <button style={{"position": "absolute", "color": "#2C2C2C", "background": "#2C2C2C"}}>Fibonacci</button>
+      </section>
     );
   }
 }
