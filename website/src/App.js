@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
-import Main from './Components/Main';
+
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import About from './Components/About';
+import Resume from './Components/Resume';
+import Portfolio from './Components/Portfolio';
 import Fibo from './Components/Fibo';
 
 class App extends Component {
@@ -35,14 +40,12 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <BrowserRouter>
-        <Routes>
-          <Route path="/">
-            <Route index element={<Main data={this.state.resumeData} />} />
-            <Route path="fibo" element={<Fibo />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+        <Header data={this.state.resumeData.main}/>
+        <About data={this.state.resumeData.main}/>
+        <Resume data={this.state.resumeData.resume}/>
+        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Footer data={this.state.resumeData.main}/>
+        <Fibo />
       </div>
     );
   }

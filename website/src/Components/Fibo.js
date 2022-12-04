@@ -44,7 +44,9 @@ class Fibo extends Component {
   render() {
     return (
       <div
+        id="fibo"
         style={{
+          "display": "none",
           "margin": "auto",
           "marginTop": "10%",
           "display": "flex",
