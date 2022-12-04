@@ -29,6 +29,7 @@ class About extends Component {
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
+            <button>Fibonacci</button>
 
             {bios}
             <div className="row">
