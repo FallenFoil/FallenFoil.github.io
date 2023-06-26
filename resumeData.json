@@ -42,7 +42,7 @@
       {
         "school": "University of Minho",
         "degree": "Integrated Master's in Informatics Engineering",
-        "graduated": "2016 - 2021",
+        "graduated": "2016 - Present",
         "description": [
           "This course aims to prepare qualified engineers in all currently recognized phases of software development, such as software analysis, design, implementation, and installation."
         ]
@@ -50,9 +50,33 @@
     ],
     "work": [
       {
+        "company": "Accenture",
+        "title": "Custom Software Engineering Analyst ",
+        "years": "May 2023 - Present",
+        "description": []
+      },
+      {
+        "company": "Accenture",
+        "title": "Advanced App Engineering Analyst ",
+        "years": "January 2023 - May 2023",
+        "description": [
+          "I helped migrate two web applications to the Google Cloud Platform. One of the apps is open source, so I had to understand the operation and flow of the app and introduce new changes to the custom version for the client. The other app was developed in Python and served as a reverse proxy for a static website, and depending on the HTTP request, it would connect to GCP and get resources from the Cloud Storage.",
+          "Technology stack: Docker Products, Google Cloud Platform (GCP), Java, Python, JavaScript"
+        ]
+      },
+      {
+        "company": "Accenture",
+        "title": "Application Developer Associate ",
+        "years": "January 2022 - January 2023",
+        "description": [
+          "I helped develop, from the start, the front-end side of a web application (business to business) that would use a back-end to get data and execute actions to present a catalog page and shopping carts.",
+          "Technology stack: Vue.js, TypeScript, Scrum, Java, JavaScript"
+        ]
+      },
+      {
         "company": "INESC Technology and Science - Associate Laboratory",
         "title": "Research Assistant (Research Grant) ",
-        "years": "April 2021 - Present",
+        "years": "April 2021 - September 2021",
         "description": [
           "I am designing, implementing, and evaluating a prototype that capitalizes on security capabilities added by TrustZone (OP-TEE), namely attestation, to respond to the security challenges posed by the ROS2 and implement this solution in a real environment (on an ARM chip)."
         ]
