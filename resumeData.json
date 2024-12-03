@@ -54,7 +54,8 @@
         "years": "May 2023 - Present",
         "description": [
           "I'm part of a team that aims to modernize hundreds of applications to the cloud.",
-          "The modernization involved understanding how an app was built, in order to introduce new features like OAuth2 authentication, and how it can be installed in a container or a virtual machine"
+          "The modernization involved understanding how an app was built, in order to introduce new features like OAuth2 authentication, and how it can be installed in a container or a virtual machine",
+          "Technology stack: Docker, Helm, GCP, Azure, Java, JavaScript, ASP.NET, PHP"
         ]
       },
       {
