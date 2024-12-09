@@ -54,7 +54,7 @@
         "years": "May 2023 - Present",
         "description": [
           "Application Modernization for Cloud Deployment:",
-          "Collaborate within a team focused on modernizing hundreds of applications for cloud migration. Analyzed application architectures to enable enhancements such as OAuth2 authentication, improving security and user management. Streamlined deployment by adapting applications for containerization or virtualization, facilitating their deployment on a private cloud infrastructure.",
+          "Collaborate within a team focused on modernizing hundreds of applications for cloud migration; Analyzed application architectures to enable enhancements such as OAuth2 authentication, improving security and user management; Streamlined deployment by adapting applications for containerization or virtualization, facilitating their deployment on a private cloud infrastructure.",
           "Technology stack: Docker, Helm, GCP, Azure, Java, JavaScript, ASP.NET, PHP"
         ]
       },
@@ -64,7 +64,7 @@
         "years": "January 2023 - May 2023",
         "description": [
           "Migrated Web Applications to Google Cloud Platform (GCP):",
-          "Successfully migrated two web applications to GCP, ensuring seamless transition and functionality. Adapted and customized an open-source application for a client by analyzing its operational flow, introducing tailored modifications, and implementing client-specific requirements. Created on a Python-based reverse proxy application for a static website, enabling dynamic resource fetching from GCP Cloud Storage based on HTTP request parameters.",
+          "Successfully migrated two web applications to GCP, ensuring seamless transition and functionality; Adapted and customized an open-source application for a client by analyzing its operational flow, introducing tailored modifications, and implementing client-specific requirements; Created on a Python-based reverse proxy application for a static website, enabling dynamic resource fetching from GCP Cloud Storage based on HTTP request parameters.",
           "Technology stack: Docker Products, Google Cloud Platform (GCP), Java, Python, JavaScript"
         ]
       },
