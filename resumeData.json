@@ -53,8 +53,10 @@
         "title": "Custom Software Engineering Analyst ",
         "years": "May 2023 - Present",
         "description": [
-          "I'm part of a team that aims to modernize hundreds of applications to the cloud.",
-          "The modernization involved understanding how an app was built, in order to introduce new features like OAuth2 authentication, and how it can be installed in a container or a virtual machine",
+          "Application Modernization for Cloud Deployment:",
+          "  • Collaborate within a team focused on modernizing hundreds of applications for cloud migration.",
+          "  • Analyzed application architectures to enable enhancements such as OAuth2 authentication, improving security and user management.",
+          "  • Streamlined deployment by adapting applications for containerization or virtualization, facilitating their deployment on a private cloud infrastructure.",
           "Technology stack: Docker, Helm, GCP, Azure, Java, JavaScript, ASP.NET, PHP"
         ]
       },
@@ -63,14 +65,17 @@
         "title": "Advanced App Engineering Analyst ",
         "years": "January 2023 - May 2023",
         "description": [
-          "I helped migrate two web applications to the Google Cloud Platform. One of the apps was open source, so I had to understand the operation and flow of the app and introduce new changes for the custom version for the client. The other app was developed in Python and served as a reverse proxy for a static website, and depending on the HTTP request, it would connect to GCP and get resources from the Cloud Storage.",
+          "Migrated Web Applications to Google Cloud Platform (GCP):",
+          "  • Successfully migrated two web applications to GCP, ensuring seamless transition and functionality.",
+          "  • Adapted and customized an open-source application for a client by analyzing its operational flow, introducing tailored modifications, and implementing client-specific requirements.",
+          "  • Created on a Python-based reverse proxy application for a static website, enabling dynamic resource fetching from GCP Cloud Storage based on HTTP request parameters.",
           "Technology stack: Docker Products, Google Cloud Platform (GCP), Java, Python, JavaScript"
         ]
       },
       {
         "company": "Accenture",
         "title": "Application Developer Associate ",
-        "years": "January 2022 - January 2023",
+        "years": "November 2021 - January 2023",
         "description": [
           "I helped develop, from the start, the front-end side of a web application (business to business) that would use a back-end to get data and execute actions to present a catalog page and shopping carts.",
           "Technology stack: Vue.js, TypeScript, Scrum, Java, JavaScript"
